@@ -2,7 +2,7 @@ import axios from 'axios';
 
 class IdeasApi {
 	constructor() {
-		this._apiurl = 'http://localhost:5000/api/ideas';
+		this._apiurl = '/api/ideas';
 	}
 
 	getIdeas() {
